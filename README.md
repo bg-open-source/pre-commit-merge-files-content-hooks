@@ -1,0 +1,1 @@
+# pre-commit-merge-files-content-hooks
