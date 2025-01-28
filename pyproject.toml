@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pre-commit-merge-files-content-hooks"
+version = "0.1.0"
+description = ""
+authors = ["Daria Baranova <darya.baranova@softnet.by>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11.0"
+pytest = "7.3.1"
+faker = "18.9.0"
+setuptools = "^70.0.0"
+wheel = "^0.43.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "7.3.1"
+faker = "18.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
