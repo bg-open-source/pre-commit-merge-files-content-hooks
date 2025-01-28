@@ -1,0 +1,5 @@
+- id: merge-files-content
+  name: merge-files-content-hook
+  entry: merge-files-content-hook
+  description: pre-commit hooks for merging content from different files to one
+  language: python
